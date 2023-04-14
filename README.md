@@ -55,17 +55,21 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### NAVIGATION
 
-### HOME PAGE
+![Original Nav](./rmimgs/nav.png)
 
-The structure of the home page is as follows:
+![Nav desktop](./rmimgs/nav2-desk.png)
+
+![Nav mobile top](./rmimgs/nav2-mob.png)
+
+![Nav mobile bottom](./rmimgs/nav2-mob-2.png)
+
+### HOME PAGE
 
     - Desktop
 
     - Tablet / mobile
 
 ### PROJECTS PAGE
-
-The structure of the Projects page is as follows:
 
     - Desktop
 
