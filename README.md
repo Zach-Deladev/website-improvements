@@ -55,11 +55,19 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### NAVIGATION
 
+## ORIGINAL NAV
+
 ![Original Nav](./rmimgs/nav.png)
+
+## PROPOSED DESKTOP NAV
 
 ![Nav desktop](./rmimgs/nav2-desk.png)
 
+## PROPOSED MOBILE NAV TOP
+
 ![Nav mobile top](./rmimgs/nav2-mob.png)
+
+## PROPOSED MOBILE NAV BOTTOM
 
 ![Nav mobile bottom](./rmimgs/nav2-mob-2.png)
 
