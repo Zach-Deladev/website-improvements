@@ -12,17 +12,25 @@
 3. MY SOLUTION
 
    - NAVIGATION
+   - CONTACT FORM
    - HOME PAGE
    - PROJECTS PAGE
    - GALLERY PAGE
    - FOOTER
-   - CONTACT FORM
 
 4. SUMMARY
 
 ## 1. INTRODUCTION
 
 In this assignment, I was tasked to improve a website's functionality and design based on a short brief. Here is my solution.
+
+### TEHCNOLOGIES USED
+
+    - HTML
+    - CSS
+    - JAVASCRIPT
+    - BOOTSTRAP
+    - JQUERY
 
 ## 2. INITIAL THOUGHTS
 
@@ -36,8 +44,7 @@ In this assignment, I was tasked to improve a website's functionality and design
     6.  Gallery is very basic, no way to view images in larger size.
     7.  Contact form has no form validation.
     8.  Footer is poorly designed and does not function in the way intended.
-
-9.  No clear call to action.
+    9.  No clear call to action.
 
 ### IMPROVEMENTS TO IMPLEMENT
 
@@ -55,13 +62,17 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### NAVIGATION
 
-#### ORIGINAL NAV
+As mentioned the original navigation bar is very basic and unresponsive. I have created a new navigation bar that is responsive and has a clear flow of information. The navigation bar is now fixed to the top of the page and changes from transparent to a solid colour on scroll to prevent content overlap.
 
 ![Original Nav](./rmimgs/nav.png)
 
 #### PROPOSED DESKTOP NAV
 
 ![Nav desktop](./rmimgs/nav2-desk.png)
+
+As you can see from my proposed design, the proposed navigation has three main sections, the page links on the left, the logo in the center and the social links on the right. The page links are in a clear order that makes sense to the user. The logo is in the center to create a clear brand identity. The social links are on the right to create a clear flow of information.
+
+For the social links I chose to use coloured icons to allow the user to easily recognise each social meida platform by its personal branding, this also helped in giving the page a subtle colour scheme.
 
 #### PROPOSED MOBILE NAV TOP
 
@@ -70,6 +81,18 @@ In this assignment, I was tasked to improve a website's functionality and design
 #### PROPOSED MOBILE NAV BOTTOM
 
 ![Nav mobile bottom](./rmimgs/nav2-mob-2.png)
+
+On smaller devices mobile and tablet, I decided to divide the navigation into two sections, at the top of the page is the logo and the contact form link. Drawing the users attention to the contact form. At the bottom of the page I added a quick nav menu that is fixed to the bottom of the oage and clearly shows the user the page links. This allows the user to quickly navigate through the pages without having to stretch their thumbs to the top of their device screen, making it nore user friendly.
+
+### CONTACT FORM
+
+#### ORIGINAL CONTACT FORM
+
+![Original Contact form ](./rmimgs/original-contact.png)
+
+#### PROPOSED CONTACT FORM
+
+![Proposed Contact Form](./rmimgs/contact-form.png)
 
 ### HOME PAGE
 
@@ -104,16 +127,6 @@ In this assignment, I was tasked to improve a website's functionality and design
     - Tablet / mobile
 
 ### FOOTER
-
-### CONTACT FORM
-
-#### ORIGINAL CONTACT FORM
-
-![Original Contact form ](./rmimgs/original-contact.png)
-
-#### PROPOSED GALLERY PAGE
-
-![Proposed Contact Form](./rmimgs/contact-form.png)
 
 ## 4. SUMMARY / REFERENCES
 
