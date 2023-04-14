@@ -1,4 +1,4 @@
-# RESTful API with CRUD functionality – By Zach Delapenha
+# Website improvments - By Zach delapenha
 
 ## CONTENTS
 
