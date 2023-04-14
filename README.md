@@ -107,15 +107,25 @@ My contact.js file does the following:
     - Creates a validation function that tests the input field against the respective regex patterns and dynamically adds a class name to each input field depending on the result. If the input is valid it will add a class name of 'valid' and if it is invalid it will add a class name of 'invalid'.
     - Creats a event listener that listens for the submit event on the form, if any of the input fields have the class name of 'invalid' the form will not submit and the user will be alerted to the error. If all the input fields have the class name of 'valid' the form will submit and the user will be alerted to the success.
 
+On successful submit the form currently opens oper your default email app, but this can be changed easily to send a direct email to the site owner, or to send the form data to a database. For the purpose of this assignment I have left it as is just to display its functionality and validation.
+
 ### HOME PAGE
 
 #### ORIGNAL HOME PAGE
 
 ![Original Home page](./rmimgs/homepage.png)
 
+The original home page is very basic, cluttered and has no clear flow of information. This makes it difficult for the user to understand what the site is offering, thus likely to negatively impact the user experience and conversion rate.
+
 #### PROPOSED HOME PAGE
 
 ![Proposed Home page](./rmimgs/homepage2.png)
+
+My solution to this problem was to create a new home page that has a clear flow of information and is easy to digest. I have also added a hero section to the top of the page to draw the users attention to the main call to action buttons.
+
+For the colour scheme I went with black and white as it is a clean and simple colour scheme that is easy on the eye. I also added slight accent colours to the page to draw the users attention to key areas of the page.
+
+As the site is a personal brand website, the main focus is to convert user into followers / customers so the focus is on the social links and contact form.
 
 ### PROJECTS PAGE
 
@@ -129,17 +139,47 @@ My contact.js file does the following:
 
 ![Original Gallery page](./rmimgs/orignal-gallery.png)
 
+The original gallery page is very basic and has no lightbox functionality. This makes it difficult for the user to view the images in a larger size.
+
 #### PROPOSED GALLERY PAGE
 
 ![Proposed Gallery page](./rmimgs/gallery-page.png)
+
+My solution to this problem was to create a new gallery page that had a clear flow of information and is easy to digest. I have also added a lightbox style functionality to the gallery images to allow the user to view the images in a larger size.
+
+I achieved this by dynamically rendering the images to the page using javascript. I created a function that loops through the images and creates a div for each image and adds the image to the div. I then added a event listener to each image that listens for a click event and when the image is clicked it opens the lightbox and displays the image in a larger size. I had to alter the name of the images in order to allow my function to easily iterate through them.
+
+This did pose a trade off, as I could not easily attribute a alt text to the images. However for the purpose of this assignment I felt this was the best solution to the problem while using vanilla javascript.
+
+The gallery.js file does the following:
+
+- first grabs all the relevant elements from the DOM and stores them in variables.
+- Then creates an array of image indexes.
+- Then declares a variable that will be used to store the current image index.
+- Creates two functions to handle the opening and closing of the lightbox. openPopup() and closePopup().
+- Creates a function that iterates through the image indexes and dynamically renders the images to the gallery page.
+- Creates a event listener that listens for a click event on the gallery images and when the image is clicked it opens the lightbox and displays the image in a larger size.
+- Creates two functions that handle the next and previous image buttons in the lightbox. showNextImage() and showPrevImage().
+- Creates a event listener that listens for a click event in the lightbox and when its triggered it closes the light box.
 
 #### GALLERY LIGHTBOX
 
 ![Gallery Lightbox](./rmimgs/gallery-lightbox.png) - Desktop
 
-    - Tablet / mobile
-
 ### FOOTER
+
+#### ORIGINAL FOOTER
+
+![Original Footer](./rmimgs/original-footer.png)
+
+The original footer is very basic and has no clear CTA buttons to draw the users attention to the contact form. The next and previous buttons are also very small and did not work correctly.
+
+#### PROPOSED FOOTER
+
+![Proposed Footer](./rmimgs/footer.png)
+
+My solution to this problem was to create a new footer that has a clear flow of information and is easy to digest.
+My footer has a quick menu that allows the users to quickly navigate through the pages, a social link menu that allows the users to quickly navigate to the social links that are linked to the site owner's social media accounts, and a contact form CTA button that allows the users to quickly access the contact form.
 
 ## 4. SUMMARY / REFERENCES
 
