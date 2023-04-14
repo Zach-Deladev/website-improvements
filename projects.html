@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Exam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	 <!--Boostrap-->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	 <!-- Nav Bar styling -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+	 type="text/css" />
+</head>
+
+	<body>
+		
+		<div id="navbar-container" class="container-fluid nav-container">
+			<nav  id="main-nav" class=" fixed-top" >
+				
+				<div class="navbar">
+				<div class="navbar-left">
+					<a class="anchor" href="./home.html">Home</a>
+					<a class="anchor" href="./projects.html">Projects</a>
+					<a class="anchor" href="./gallery.html">Gallery</a>
+					
+				</div>
+				<div class="navbar-center">
+					<a  style="text-decoration:none" href="./home.html"><h1>LS</h1></a>
+				</div>
+				<div class="navbar-right">
+					<a href="https://www.linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt="linkedin link"></a>
+					<a href="https://github.com/" target="_blank"><img src="./img/github.png" alt="github link"></a>
+					<a href="https://twitter.com/" target="_blank"><img src="./img/twitter.png" alt="twitter link"></a>
+					<a href="https://youtube.com/" target="_blank"><img src="./img/youtube.png" alt="youtube link"></a>
+					<a id="hero-contact" data-toggle="modal" data-target="#exampleModal" ><img src="./img/email.png" alt="email"></a>
+				</div>
+				<div class="navbar-contact">
+					<a  style="text-decoration:none" data-toggle="modal" data-target="#exampleModal"><h4>CONTACT</h4></a>
+				</div>
+				</div>
+		
+	
+			</nav>
+		</div>
+
+	<header class="about-head">
+		<div class="headbg">
+		
+				<div class="cont">
+					<h1 style="color: white; text-align: center; padding-bottom: 60px; font-size: 3.6rem;">Blog</h1>
+					<div class="left-cont">
+
+						<div class="left-side">
+							<div class="top">
+									
+							</div>
+							<div class="bottom">
+								<h1>FIRST PROJECT</h1>
+								<h1 style="font-size: 18px">Description, <span class="span1">April 15, 2022</span></h1>	
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur<span id="dots">...</span><span id="more"> magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</span></p>
+								<button onclick="leftTop()" class="btn btn-primary" id="myBtn">Read more</button>
+								<p class="p1">Comments (2)</p> 
+							</div>
+						</div>
+	
+						<div class="left-side">
+							<div class="top2">
+									
+							</div>
+							<div class="bottom2">
+								<h1 >SECOND PROJECT</h1>
+								<h1 style="font-size: 18px">Description, <span class="span1">May  19, 2022</span></h1>	
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur<span id="dotsTwo">...</span><span id="moreTwo"> magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</span></p>
+								<button onclick="leftBottom()" class="btn btn-primary" id="myBtnTwo">Read more</button>
+								<p class="p1">Comments (5)</p> 
+							</div>
+						</div>			
+
+							
+					</div>	
+				</div>
+
+		</div>
+	</header>
+	
+	
+<!-- Small device footer -->
+<div class="foot-grid">
+	
+	<a href="./home.html" class="foot-two-icon">
+		<img src="./img/home.png" alt="home icon">
+		<p>HOME</p>
+	</a>
+	<a href="./projects.html" class="foot-two-icon">
+		<img src="./img/port.png" alt="portfolio">
+		<p>PROJECTS</p>
+	</a>
+	<a href="./gallery.html" class="foot-two-icon">
+		<img src="./img/gallery.png" alt="">
+		<p>GALLERY</p>
+	</a>
+	
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			
+			<div class="modal-body">
+				<form action="mailto:zachdelapenha@gmail.com"
+				method="POST"
+				enctype="multipart/form-data" name="contactForm" class="form" id="contactForm" method="GET">
+				
+					<br>
+					<h3>Get in touch!</h3>
+					<h3 style="color: red;" id="errorElement"></h3>
+					<label for="username">Name:</label>
+					<br>
+					<input type="text" id="username" name="username" placeholder="Your name" required />
+					<br>
+					<label for="textArea">Your message:</label>
+					<br>
+					<textarea id="textArea" name="message" rows="4" cols="53">
+					</textarea>
+					<br>
+					<label for="email">Email:</label>
+					<br>
+					<input type="text" id="email" name="email" placeholder="email" required />
+					<br>
+					<label for="telephone">Phone Number:</label>
+					<br>
+					<input type="text" id="telephone" name="telephone" placeholder="Example: 07123456789 or +447123456789" required />
+					<p>Must be a valid UK telephone number</p>
+
+
+					<input  type="submit" name="submit" class="submit btn-success btn" />
+					<br>
+					
+				
+				</form>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+<footer>
+	<div class="footer-content">
+		<h3>Linda Smith</h3>
+		<p>Just me, myself and I, exploring the universe of web technology.</p>
+		<ul class="socials">
+			
+			<li><a  href="https://www.linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt="linkedin link"></a> </li>
+			<li><a  href="https://github.com/" target="_blank"><img src="./img/github.png" alt="github link"></a> </li>
+			<li><a  href="https://twitter.com/" target="_blank"><img src="./img/twitter.png" alt="twitter link"></a></li>
+			<li><a  href="https://youtube.com/" target="_blank"><img src="./img/youtube.png" alt="youtube link"></a></li>
+		</ul>
+	</div>
+	<div class="footer-bottom">
+		<p>copyright &copy;2023 Linda Smith.</p>
+	</div>
+</footer>
+
+	<!-- Libaries added to enable Nav bar -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+</script>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/readmore.js"></script>
+<script src="./scripts/contact.js"></script>
+
+
+</body>
+</html>
