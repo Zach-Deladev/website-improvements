@@ -107,6 +107,14 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### CONTACT FORM
 
+#### ORIGINAL CONTACT FORM
+
+![Original Contact form ](./rmimgs/original-contact.png)
+
+#### PROPOSED GALLERY PAGE
+
+![Proposed Contact Form](./rmimgs/contact-form.png)
+
 ## 4. SUMMARY / REFERENCES
 
 ### SUMMARY
