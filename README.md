@@ -55,7 +55,7 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### NAVIGATION
 
-## ORIGINAL NAV
+#### ORIGINAL NAV
 
 ![Original Nav](./rmimgs/nav.png)
 
@@ -73,9 +73,13 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### HOME PAGE
 
-    - Desktop
+#### ORIGNAL HOME PAGE
 
-    - Tablet / mobile
+![Original Home page](./rmimgs/homepage.png)
+
+#### PROPOSED HOME PAGE
+
+![Proposed Home page](./rmimgs/homepage2.png)
 
 ### PROJECTS PAGE
 
