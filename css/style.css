@@ -235,9 +235,7 @@
 			;
 		}
 
-		.modal-body form {
-			
-		}
+	
 		.modal-body form input,textarea{
 			width: 90%;
 		}
@@ -618,15 +616,6 @@ width: auto;
 		#more {display: none;}
 		#moreTwo {display: none;}
 
-		
-		.left-cont {
-		
-		}
-		 
-		.right-cont {
-			
-		}
-		
 		.left-side{
 			
 			height:fit-content;
@@ -739,10 +728,9 @@ width: auto;
 	}
 
 	.galleryImg {
-		margin: 10px;
+		border: 2px dashed white;
 		max-width: 300px;
 		margin: auto;
-		border-radius: 10px;
 		position: relative;	
 		transition: transform 250ms;
 		cursor: pointer;
@@ -767,6 +755,48 @@ width: auto;
 	transition: transform 250ms;
 	padding: 50px;
 	z-index: 999;
+}
+
+.popup-btn-one {
+	border: none;
+	position: absolute;
+	top: 49%;	
+	transform: translate(-50%);
+	right: -50px;
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	background-color: #00000000;
+}
+
+.popup-btn-one img {
+	height: 64px;
+	width: 64px;
+}
+
+.popup-btn-one:hover {
+	background-color: #4949499c;
+}
+
+.popup-btn-two {
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%);
+	left: 50px;
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	background-color: #00000000;
+}
+
+.popup-btn-two img {
+	height: 64px;
+	width: 64px;
+}
+
+.popup-btn-two:hover {
+	background-color: #4949499c;
 }
 
 #imgselect {
@@ -803,7 +833,7 @@ width: auto;
 @media only screen and (min-width: 1000px) {
 	.galleryImg {
 		min-width: 400px;
-	
+		margin: 10px;
 	}
 
 	
@@ -828,6 +858,7 @@ width: auto;
 @media only screen and (min-width: 1260px) {
 	.galleryImg {
 		min-width: 400px;
+		margin: 10px;
 	
 	}
 
