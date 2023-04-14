@@ -89,7 +89,17 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### GALLERY PAGE
 
-    - Desktop
+#### ORIGINAL GALLERY
+
+![Original Gallery page](./rmimgs/orignal-gallery.png)
+
+#### PROPOSED GALLERY PAGE
+
+![Proposed Gallery page](./rmimgs/gallery-page.png)
+
+#### GALLERY LIGHTBOX
+
+![Gallery Lightbox](./rmimgs/gallery-lightbox.png) - Desktop
 
     - Tablet / mobile
 

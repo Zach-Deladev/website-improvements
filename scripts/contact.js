@@ -39,8 +39,8 @@ inputs.forEach((input) => {
     });
     });
     
-// Registration form validation function - this function checks to see if any input fields have been given the class name of invalid and adds an error message to the messages array to prevent the form validating
-//  If all inputs are valid the form validates and takes the user to the thankyou page.
+ 
+// This function gets the form element and adds an event listener to it, when the form is submitted it checks if any of the inputs have the invalid class, if they do it prevents the form from being submitted and displays an error message.
 const contactForm = document.getElementById("contactForm");
 
 contactForm.addEventListener("submit", (e)=> {
