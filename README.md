@@ -90,9 +90,22 @@ On smaller devices mobile and tablet, I decided to divide the navigation into tw
 
 ![Original Contact form ](./rmimgs/original-contact.png)
 
+The original contact form is very basic and has no form validation. I have created a new contact form that has form validation. It is also hidden at the bottom of the page with no clear CTA button to draw the users attention to it.
+
 #### PROPOSED CONTACT FORM
 
 ![Proposed Contact Form](./rmimgs/contact-form.png)
+
+My solution to this problem was to completely remove the contact form from being static fixed to the bottom of the page and add it as a modal that is triggered when the user clicks the contact CTA buttons in the navigation bar, footer and hero secion on the home page. This allows the user to easily access the contact form without having to scroll to the bottom of the page. I have also added form validation to the contact form to make sure the user enters the correct information, and if they don't the form will not submit and alert the user to the error.
+
+To achieve the form validation I linked it to a javascript file that checks the form input values and if they are not correct it will alert the user to the error and prevent the form from submitting.
+
+My contact.js file does the following:
+
+    - Gets all the inputs from the form and stores them in a variable.
+    - Delcares a object that will be used to store the regex patterns for the form validation.
+    - Creates a validation function that tests the input field against the respective regex patterns and dynamically adds a class name to each input field depending on the result. If the input is valid it will add a class name of 'valid' and if it is invalid it will add a class name of 'invalid'.
+    - Creats a event listener that listens for the submit event on the form, if any of the input fields have the class name of 'invalid' the form will not submit and the user will be alerted to the error. If all the input fields have the class name of 'valid' the form will submit and the user will be alerted to the success.
 
 ### HOME PAGE
 
