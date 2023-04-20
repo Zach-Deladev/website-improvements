@@ -62,7 +62,7 @@ In this assignment, I was tasked to improve a website's functionality and design
 
 ### NAVIGATION
 
-As mentioned the original navigation bar is very basic and unresponsive. I have created a new navigation bar that is responsive and has a clear flow of information. The navigation bar is now fixed to the top of the page and changes from transparent to a solid colour on scroll to prevent content overlap.
+As mentioned the original navigation bar is very basic and unresponsive. I have created a new navigation bar that is responsive and has a clear flow of information. The navigation bar is now fixed to the top of the page and changes from transparent to a solid colour on scroll to prevent content overlap. I achieved this by creating a javascript function that listens for a scoll event and adds a class name to the nav bar when the user scrolls down the page.
 
 ![Original Nav](./rmimgs/nav.png)
 
@@ -102,10 +102,10 @@ To achieve the form validation I linked it to a javascript file that checks the 
 
 My contact.js file does the following:
 
-    - Gets all the inputs from the form and stores them in a variable.
-    - Delcares a object that will be used to store the regex patterns for the form validation.
-    - Creates a validation function that tests the input field against the respective regex patterns and dynamically adds a class name to each input field depending on the result. If the input is valid it will add a class name of 'valid' and if it is invalid it will add a class name of 'invalid'.
-    - Creats a event listener that listens for the submit event on the form, if any of the input fields have the class name of 'invalid' the form will not submit and the user will be alerted to the error. If all the input fields have the class name of 'valid' the form will submit and the user will be alerted to the success.
+- Gets all the inputs from the form and stores them in a variable.
+- Delcares a object that will be used to store the regex patterns for the form validation.
+- Creates a validation function that tests the input field against the respective regex patterns and dynamically adds a class name to each input field depending on the result. If the input is valid it will add a class name of 'valid' and if it is invalid it will add a class name of 'invalid'.
+- Creats a event listener that listens for the submit event on the form, if any of the input fields have the class name of 'invalid' the form will not submit and the user will be alerted to the error. If all the input fields have the class name of 'valid' the form will submit and the user will be alerted to the success.
 
 On successful submit the form currently opens oper your default email app, but this can be changed easily to send a direct email to the site owner, or to send the form data to a database. For the purpose of this assignment I have left it as is just to display its functionality and validation.
 
@@ -185,4 +185,23 @@ My footer has a quick menu that allows the users to quickly navigate through the
 
 ### SUMMARY
 
+I improved the website's functionality and design by identifying areas that needed improvement, such as unresponsive navigation, cluttered pages, no clear flow of information, and more. I proposed several solutions, including creating a new navigation bar, adding form validation to the contact form, and designing a new footer with quick menus and a clear contact form CTA button. I used HTML, CSS, JavaScript, Bootstrap, and jQuery to achieve these improvements.
+
 ### REFERENCES
+
+1. Clear Page Structure:
+
+   - "6 Principles of Visual Hierarchy for Web Design" by Adobe Creative Cloud: https://www.adobe.com/creativecloud/design/discover/principles-of-visual-hierarchy.html
+   - "The Importance of Information Architecture in UX Design" by Toptal: https://www.toptal.com/designers/ux/information-architecture
+
+2. Unique Branding:
+
+   - "A Strong Brand Helps Your Product Or Service Stand Out Online https://aiad.com.au/what-is-the-importance-of-branding-in-web-design/"
+
+3. Gallery Lightbox Functionality:
+
+   - "How to Create a Simple Lightbox with JavaScript and CSS" by Jonathan Suh: https://www.sitepoint.com/create-a-simple-css-javascript-lightbox/
+
+4. Value of CTA buttons:
+
+   - "The Importance of Call To Actions for Websites" by sender.net: https://www.sender.net/blog/the-importance-of-call-to-actions-for-websites/

@@ -4,6 +4,14 @@
 	
   }
 
+  .valid {
+	border: 2px solid green;
+  }
+
+  .invalid {
+	border: 2px solid red;
+  }
+
 		.head-container {
 			justify-content: space-between;
 			align-items: center;
@@ -414,6 +422,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	padding-bottom: 90px;
 	
 }
 
@@ -519,7 +528,7 @@ footer {
 	bottom: 10px;
 	right: 50%;
 	transform: translate(50%, 0);
-background-color: #000000d0;
+background-color: #444444;
 	border-radius: 10px;
 	padding-top: 10px;
 }
